@@ -4,7 +4,7 @@ ThisBuild / scalaVersion := "3.3.3"
 
 lazy val root = (project in file("."))
   .settings(
-    name := "leap-years-using-applicative"
+    name := "leap-year-function-using-function-applicative"
   )
 
 libraryDependencies ++= Seq(
